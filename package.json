@@ -17,6 +17,7 @@
     "path-is-root": "^0.1.0",
     "path-to-regexp": "^1.7.0",
     "react-redux": "^5.0.7",
+    "react-router-redux": "^5.0.0-alpha.9",
     "slash2": "^2.0.0"
   },
   "scripts": {
