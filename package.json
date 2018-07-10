@@ -16,6 +16,7 @@
     "object-assign": "^4.1.1",
     "path-is-root": "^0.1.0",
     "path-to-regexp": "^1.7.0",
+    "react-redux": "^5.0.7",
     "slash2": "^2.0.0"
   },
   "scripts": {
