@@ -14,12 +14,15 @@ export default {
 ```js
 export default {
   plugins: [
-    ["umi-plugin-rematch",{
-       immer: true, //default:false
-       exclude: [
-        /^\$/
-      ],//这里是以$开头的model不会被引用
-    }]
+    [
+      "umi-plugin-rematch",
+      {
+        immer: true, // default:false
+        exclude: [
+          /^\$/
+        ], // 这里是以$开头的model不会被引用
+      }
+    ]
   ]
 };
 ```
