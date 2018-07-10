@@ -1,6 +1,6 @@
 {
   "name": "umi-plugin-rematch",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "main": "./lib/index.js",
   "devDependencies": {
     "babel-preset-env": "^1.7.0",
