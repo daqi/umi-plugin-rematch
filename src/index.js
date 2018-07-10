@@ -164,6 +164,7 @@ require('${winPath(require.resolve('@rematch/immer'))}').default()
       );
     }
     tplContent = tplContent
+      .replace('<%= ExtendRematchConfig %>', '')
       .replace('<%= RegisterPlugins %>', getPluginContent())
       .replace('<%= RegisterModels %>', getGlobalModelContent());
     writeFileSync(rematchContainerPath, tplContent, 'utf-8');
