@@ -1,0 +1,38 @@
+{
+  "name": "umi-plugin-rematch",
+  "version": "0.0.1",
+  "main": "./lib/index.js",
+  "dependencies": {
+    "@rematch/core": "^1.0.0-beta.5",
+    "@rematch/immer": "^1.0.2",
+    "@rematch/loading": "^1.1.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "globby": "^7.1.1",
+    "lodash.uniq": "^4.5.0",
+    "object-assign": "^4.1.1",
+    "path-is-root": "^0.1.0",
+    "path-to-regexp": "^1.7.0",
+    "slash2": "^2.0.0"
+  },
+  "scripts": {
+    "build": "babel src -d lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/daqi/umi-plugin-rematch"
+  },
+  "homepage": "https://github.com/daqi/umi-plugin-rematch",
+  "authors": [
+    "daqi <daqidaqi@qq.com> (https://github.com/daqi)"
+  ],
+  "bugs": {
+    "url": "https://github.com/daqi/umi-plugin-rematch/issues"
+  },
+  "files": [
+    "lib",
+    "src",
+    "template"
+  ]
+}
